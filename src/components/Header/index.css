@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  box-shadow: 0px 4px 16px 0px lightblue;
+  border: 3px solid #12022f;
+  border-radius: 10px;
+}
+.navbar {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-wave {
+  height: 25px;
+  width: 25px;
+}
+.wave-text {
+  color: #12022f;
+  font-family: Roboto;
+  font-size: 17px;
+}
+.ul-options {
+  display: flex;
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.options {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.main-container {
+}
